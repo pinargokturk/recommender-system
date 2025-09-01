@@ -1,0 +1,23 @@
+# Python cache ve bytecode
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# IDE ve editör ayarları
+.vscode/
+.idea/
+
+# Log dosyaları
+*.log
+
+# Büyük veri dosyaları (opsiyonel)
+data/*.csv
+data/*.xlsx
+
+# MacOS sistem dosyaları
+.DS_Store
+
+# Windows sistem dosyaları
+Thumbs.db
