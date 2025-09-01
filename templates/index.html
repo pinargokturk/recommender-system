@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ürün Öneri Sistemi</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="p-5">
+  <h2>Ürün Öneri Sistemi</h2>
+  <form method="POST">
+    <label>Kullanıcı ID:</label>
+    <input type="number" name="user_id" required>
+    <button type="submit" class="btn btn-primary">Önerileri Getir</button>
+  </form>
+
+  {% if recommendations %}
+    <h4 class="mt-4">Önerilen Ürünler:</h4>
+    <ul>
+      {% for item in recommendations %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</body>
+</html>
