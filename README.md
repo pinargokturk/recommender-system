@@ -1,16 +1,16 @@
-# Ürün Öneri Sistemi 🔍
+## Ürün Öneri Sistemi 🔍
 
 Bu proje, kullanıcıların geçmiş satın alımlarına göre ürün önerileri sunan bir **User-Based Collaborative Filtering** sistemidir.
 ---
 
-## Proje Amacı
+### Proje Amacı
 
 - Kullanıcıların satın alma geçmişine dayalı ürün önerileri üretmek.  
 - Staj sürecinde veri bilimi ve yazılım entegrasyonu becerilerini geliştirmek.  
 
 ---
 
-## Kullanılan Teknolojiler
+### Kullanılan Teknolojiler
 
 - **Python 3.11** – Proje dili  
 - **Pandas & Numpy** – Veri işleme ve analiz  
@@ -23,7 +23,7 @@ Bu proje, kullanıcıların geçmiş satın alımlarına göre ürün önerileri
 
 ---
 
-## Proje Süreci
+### Proje Süreci
 
 1. **Veri Hazırlığı**  
    - `online_retail_II.csv` dosyası işlendi.  
